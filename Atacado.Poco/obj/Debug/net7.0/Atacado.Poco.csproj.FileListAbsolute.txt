@@ -1,0 +1,12 @@
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\bin\Debug\net7.0\Atacado.Poco.deps.json
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\bin\Debug\net7.0\Atacado.Poco.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\bin\Debug\net7.0\Atacado.Poco.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.csproj.AssemblyReference.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.AssemblyInfoInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.AssemblyInfo.cs
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.csproj.CoreCompileInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\refint\Atacado.Poco.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Poco\obj\Debug\net7.0\ref\Atacado.Poco.dll

@@ -1,0 +1,42 @@
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.deps.json
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.runtimeconfig.json
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.csproj.AssemblyReference.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.AssemblyInfoInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.AssemblyInfo.cs
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.csproj.CoreCompileInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\refint\Atacado.BD.EF.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.genruntimeconfig.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\ref\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.deps.json
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.runtimeconfig.json
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.pdb
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.csproj.AssemblyReference.cache
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.GeneratedMSBuildEditorConfig.editorconfig
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.AssemblyInfoInputs.cache
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.AssemblyInfo.cs
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.csproj.CoreCompileInputs.cache
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\refint\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.pdb
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.genruntimeconfig.cache
+d:\Eduardo\Nova pasta (3)\POO2_A1-main\POO2_A1-main\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\ref\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.deps.json
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.runtimeconfig.json
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\bin\Debug\net7.0\Atacado.BD.EF.pdb
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.csproj.AssemblyReference.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.GeneratedMSBuildEditorConfig.editorconfig
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.AssemblyInfoInputs.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.AssemblyInfo.cs
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.csproj.CoreCompileInputs.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\refint\Atacado.BD.EF.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.pdb
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\Atacado.BD.EF.genruntimeconfig.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.BD.EF\obj\Debug\net7.0\ref\Atacado.BD.EF.dll

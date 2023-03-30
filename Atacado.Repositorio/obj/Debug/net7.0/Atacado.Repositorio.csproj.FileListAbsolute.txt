@@ -1,0 +1,12 @@
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\bin\Debug\net7.0\Atacado.Repositorio.deps.json
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\bin\Debug\net7.0\Atacado.Repositorio.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\bin\Debug\net7.0\Atacado.Repositorio.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.csproj.AssemblyReference.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.AssemblyInfoInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.AssemblyInfo.cs
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.csproj.CoreCompileInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\refint\Atacado.Repositorio.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\Atacado.Repositorio.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Repositorio\obj\Debug\net7.0\ref\Atacado.Repositorio.dll

@@ -1,0 +1,12 @@
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\bin\Debug\net7.0\Atacado.Servico.deps.json
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\bin\Debug\net7.0\Atacado.Servico.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\bin\Debug\net7.0\Atacado.Servico.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.csproj.AssemblyReference.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.AssemblyInfoInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.AssemblyInfo.cs
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.csproj.CoreCompileInputs.cache
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\refint\Atacado.Servico.dll
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.pdb
+c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\ref\Atacado.Servico.dll
