@@ -1,15 +1,17 @@
-namespace Atacado.BD.EF.Database;
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
+namespace Atacado.BD.EF.Database;
 [Table ("Cidade")]
 
 public class Cidade
 {
+    public Cidade()
+    {}
+
     [Key]
     public Int64 CodigoCidade {get; set;}
 
@@ -20,7 +22,4 @@ public class Cidade
     public string UF {get; set;} = null!;
 
     public Int64 CodigoEstado {get; set;}
-
-    public Cidade()
-    {}
 }

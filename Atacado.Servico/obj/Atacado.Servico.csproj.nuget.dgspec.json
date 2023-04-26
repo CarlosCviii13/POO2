@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj": {}
+    "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj": {
+    "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj",
+        "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj",
         "projectName": "Atacado.Servico",
-        "projectPath": "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj",
-        "packagesPath": "C:\\Users\\SQL\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Servico\\obj\\",
+        "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SQL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

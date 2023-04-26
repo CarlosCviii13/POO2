@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SQL\\.nuget\\packages\\": {}
+    "C:\\Users\\Eduardo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj",
+      "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj",
       "projectName": "Atacado.Repositorio",
-      "projectPath": "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj",
-      "packagesPath": "C:\\Users\\SQL\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SQL\\Desktop\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\obj\\",
+      "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj",
+      "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+      "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SQL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

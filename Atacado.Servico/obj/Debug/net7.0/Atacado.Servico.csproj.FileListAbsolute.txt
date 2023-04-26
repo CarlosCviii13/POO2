@@ -10,3 +10,15 @@ c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.S
 c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\refint\Atacado.Servico.dll
 c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.pdb
 c:\Users\SQL\Desktop\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\ref\Atacado.Servico.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\bin\Debug\net7.0\Atacado.Servico.deps.json
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\bin\Debug\net7.0\Atacado.Servico.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\bin\Debug\net7.0\Atacado.Servico.pdb
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.csproj.AssemblyReference.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.GeneratedMSBuildEditorConfig.editorconfig
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.AssemblyInfoInputs.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.AssemblyInfo.cs
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.csproj.CoreCompileInputs.cache
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\refint\Atacado.Servico.dll
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\Atacado.Servico.pdb
+d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\POO2\ProjetoPOO2\Atacado.Servico\obj\Debug\net7.0\ref\Atacado.Servico.dll

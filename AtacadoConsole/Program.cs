@@ -12,38 +12,18 @@ public class Program
         var options = new DbContextOptionsBuilder<AtacadoContext>().UseSqlServer(connectionString).Options;
         var contexto = new AtacadoContext(options);
 
-        //Executando a pesquisa para obter todos os registros de Categoria.
-        //Em seguida, abrindo os resultados e exibindo um por um.
-        Console.WriteLine("Executando pesquisa...");
-        /*
-        foreach (Categorium item in contexto.Categoria.ToList())
-        {
-            Console.WriteLine($"{item.Codigo} - {item.Descricao}");
-        }
-        */
+        BaseTestes teste;
+        //teste = new CategoriaTestes(contexto);        // OK
+        //teste = new SubcategoriaTestes(contexto);     // OK
+        //teste = new ProdutoTestes(contexto);          // OK
+        //teste = new RegiaoTestes(contexto);           // OK
+        //teste = new EstadoTestes(contexto);           // OK
+        //teste = new CidadeTestes(contexto);           // OK
+        //teste = new BancoTestes(contexto);            // OK
+        teste = new AreaConhecimentoTestes(contexto); // OK
+        teste.Imprimir();
 
-        
-        foreach (Regiao item in contexto.Regioes)
-        {
-            Console.WriteLine($"{item.CodigoRegiao} - {item.Nome}");
-        }
-        
-
-        
-        foreach (Estado item in contexto.Estados)
-        {
-            Console.WriteLine($"{item.CodigoEstado} - {item.Nome}");
-        }
-        
-
-        
-        foreach (Cidade item in contexto.Cidades)
-        {
-            Console.WriteLine($"{item.CodigoCidade} - {item.Nome}");
-        }
-              
-
-        Console.WriteLine("Fim do programa");
+        Console.WriteLine("\nFim do Programa...");
         Console.ReadLine();
     }
 }

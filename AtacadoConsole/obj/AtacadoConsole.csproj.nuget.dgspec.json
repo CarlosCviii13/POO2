@@ -4,14 +4,14 @@
     "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\AtacadoConsole\\AtacadoConsole.csproj": {}
   },
   "projects": {
-    "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
+    "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+        "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
         "projectName": "Atacado.BD.EF",
-        "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+        "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
         "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\obj\\",
+        "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -105,8 +105,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
-                "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj"
+              "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
+                "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj"
               }
             }
           }
@@ -146,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
