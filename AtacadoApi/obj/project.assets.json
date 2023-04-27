@@ -868,6 +868,38 @@
         "runtime": {
           "bin/placeholder/Atacado.Poco.dll": {}
         }
+      },
+      "Atacado.Repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Atacado.BD.EF": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15"
+        },
+        "compile": {
+          "bin/placeholder/Atacado.Repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Atacado.Repositorio.dll": {}
+        }
+      },
+      "Atacado.Servico/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Atacado.BD.EF": "1.0.0",
+          "Atacado.Poco": "1.0.0",
+          "Atacado.Repositorio": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15"
+        },
+        "compile": {
+          "bin/placeholder/Atacado.Servico.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Atacado.Servico.dll": {}
+        }
       }
     }
   },
@@ -2384,12 +2416,24 @@
       "type": "project",
       "path": "../Atacado.Poco/Atacado.Poco.csproj",
       "msbuildProject": "../Atacado.Poco/Atacado.Poco.csproj"
+    },
+    "Atacado.Repositorio/1.0.0": {
+      "type": "project",
+      "path": "../Atacado.Repositorio/Atacado.Repositorio.csproj",
+      "msbuildProject": "../Atacado.Repositorio/Atacado.Repositorio.csproj"
+    },
+    "Atacado.Servico/1.0.0": {
+      "type": "project",
+      "path": "../Atacado.Servico/Atacado.Servico.csproj",
+      "msbuildProject": "../Atacado.Servico/Atacado.Servico.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Atacado.BD.EF >= 1.0.0",
       "Atacado.Poco >= 1.0.0",
+      "Atacado.Repositorio >= 1.0.0",
+      "Atacado.Servico >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Microsoft.EntityFrameworkCore >= 6.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.15",
@@ -2426,6 +2470,12 @@
             },
             "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Poco\\Atacado.Poco.csproj": {
               "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Poco\\Atacado.Poco.csproj"
+            },
+            "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj": {
+              "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj"
+            },
+            "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj": {
+              "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj"
             }
           }
         }

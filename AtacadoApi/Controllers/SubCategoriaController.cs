@@ -11,7 +11,7 @@ public class SubCategoriaController : ControllerBase
 {
     private AtacadoContext contexto;
     public SubCategoriaController() : base()
-    {
+    { // Contato com sql sever //
         string connectionString = "Data Source=(Local);Initial Catalog=bdAtacado;User=usrAtacado;Password=senha123;TrustServerCertificate=True;";
         var options = new DbContextOptionsBuilder<AtacadoContext>().UseSqlServer(connectionString).Options;
         this.contexto = new AtacadoContext(options);
