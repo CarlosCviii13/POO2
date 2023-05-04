@@ -16,7 +16,7 @@ namespace Atacado.BD.EF.Database
         // "GET-SET" = "SQL"
         public virtual DbSet<Categoria> Categorias { get; set; } = null!;
         public virtual DbSet<Produto> Produtos { get; set; } = null!;
-        public virtual DbSet<Subcategoria> Subcategorias { get; set; } = null!;
+        public virtual DbSet<SubCategoria> SubCategorias { get; set; } = null!;
         public virtual DbSet<Regiao> Regioes { get; set; } = null!;
         public virtual DbSet<Estado> Estados { get; set; } = null!;
         public virtual DbSet<Cidade> Cidades { get; set; } = null!;
@@ -46,7 +46,7 @@ namespace Atacado.BD.EF.Database
                 entity.Property(e => e.DataInclusao).HasDefaultValueSql("(getdate())");
             });
 
-            modelBuilder.Entity<Subcategoria>(entity =>
+            modelBuilder.Entity<SubCategoria>(entity =>
             {
                 entity.Property(e => e.DataInclusao).HasDefaultValueSql("(getdate())");
             });

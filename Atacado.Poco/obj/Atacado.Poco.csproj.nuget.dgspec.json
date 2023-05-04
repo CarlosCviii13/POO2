@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj": {}
+    "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj": {}
   },
   "projects": {
-    "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj": {
+    "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
+        "projectUniqueName": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
         "projectName": "Atacado.Poco",
-        "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
+        "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
         "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\obj\\",
+        "outputPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Atacado.BD.EF.Database;
 
-[Table("Subcategoria")]
+[Table("SubCategoria")]
 
-public partial class Subcategoria //"Table" + "public partial" + "public"
+public partial class SubCategoria //"Table" + "public partial" + "public"
 {
-    public Subcategoria()
+    public SubCategoria()
     {}
 
     [Key] // Chave principal
