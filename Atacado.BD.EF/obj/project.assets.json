@@ -2020,11 +2020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+      "projectUniqueName": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
       "projectName": "Atacado.BD.EF",
-      "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+      "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\obj\\",
+      "outputPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"

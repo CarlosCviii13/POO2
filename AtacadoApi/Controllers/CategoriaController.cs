@@ -21,4 +21,28 @@ public class CategoriaController : BaseController
     {
         return this.servico.Listar();
     }
+
+    [HttpGet("{id}")]
+    public CategoriaPoco getById(int id)
+    {
+        return this.servico.Ler(id);
+    }
+
+    [HttpPost]
+    public CategoriaPoco Post([FromBody]CategoriaPoco poco)
+    {
+        return this.servico.Inserir(poco);
+    }
+
+    [HttpPut]
+    public CategoriaPoco Put([FromBody]CategoriaPoco poco)
+    {
+        return this.servico.Alterar(poco);
+    }
+
+    [HttpDelete]
+    public CategoriaPoco Delete(int chave)
+    {
+        return this.servico.Excluir(chave);
+    }
 }

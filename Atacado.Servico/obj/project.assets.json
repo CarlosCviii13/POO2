@@ -1974,11 +1974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj",
+      "projectUniqueName": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Servico\\Atacado.Servico.csproj",
       "projectName": "Atacado.Servico",
-      "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\Atacado.Servico.csproj",
+      "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Servico\\Atacado.Servico.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Servico\\obj\\",
+      "outputPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Servico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1993,14 +1993,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
-              "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj"
+            "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
+              "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj"
             },
-            "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Poco\\Atacado.Poco.csproj": {
-              "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Poco\\Atacado.Poco.csproj"
+            "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj": {
+              "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Poco\\Atacado.Poco.csproj"
             },
-            "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj": {
-              "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj"
+            "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj": {
+              "projectPath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.Repositorio\\Atacado.Repositorio.csproj"
             }
           }
         }

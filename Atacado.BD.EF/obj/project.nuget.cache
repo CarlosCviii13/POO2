@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "62AFt/9nlGvZam39hu0VXc4GvSgsUUm/egZ1KWR4+GoWc1sr1cqARVp8E4aI9a305ZFn9I6zk4ArKKLrHrlp6g==",
+  "dgSpecHash": "JoJafEIaogFadKDlKZR9fzSJVFtCFUpK49vNgZbR6KJaPsWibsg8HZR/RezHzpe7QdJUn/EtPo4TtsoofX62Cg==",
   "success": true,
-  "projectFilePath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\POO2\\ProjetoPOO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+  "projectFilePath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

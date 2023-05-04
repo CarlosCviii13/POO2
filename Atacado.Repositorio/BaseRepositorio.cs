@@ -9,7 +9,7 @@ public abstract class BaseRepositorio<TEntidade> where TEntidade : class
 
     public abstract List<TEntidade> Read();
 
-    public abstract TEntidade update(TEntidade obj);
+    public abstract TEntidade Update(TEntidade obj);
 
     public abstract TEntidade Delete(int codigo);
 }

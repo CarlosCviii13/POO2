@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Atacado.Repositorio;
 
-public class CategoriaRepo : BaseAtacadoContextoRepo<Categoria> // ctrl+ponto para 1-"contrutor" 2-"class" //
+public class SubCategoriaRepo : BaseAtacadoContextoRepo<Categoria> // ctrl+ponto para 1-"contrutor" 2-"class" //
 {
-    public CategoriaRepo(AtacadoContext ctx) : base(ctx)
+    public SubCategoriaRepo(AtacadoContext ctx) : base(ctx)
     {
     }
 

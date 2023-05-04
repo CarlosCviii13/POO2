@@ -12,7 +12,7 @@ where TDominioEF : class
 
     public abstract TPoco Alterar(TPoco poco); // Alterar //
 
-    public abstract TPoco Excluir(TPoco chave); // Excluir //
+    public abstract TPoco Excluir(int chave); // Excluir //
 
     public abstract TPoco Converter(TDominioEF dom); // Converter EF //
 
