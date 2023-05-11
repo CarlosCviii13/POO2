@@ -7,42 +7,50 @@ using Microsoft.EntityFrameworkCore;
 namespace AtacadoApi.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/Atacado/Estoque/")]
+// Controller //
 public class SubCategoriaController : BaseController
 {
-    private SubCategoriaServico servico;
+    private SubCategoriaServico Servico;
+    
     public SubCategoriaController() : base()
     {
-        this.servico = new SubCategoriaServico(this.contexto);
+        this.Servico = new SubCategoriaServico(this.contexto);
     }
 
-    [HttpGet]
+    [HttpGet("SubCategorias")] // ver todos "GET ALL"//
     public List<SubCategoriaPoco> GetAll()
     {
-        return this.servico.Listar();
+        return this.Servico.Listar();
     }
 
-    [HttpGet("{id}")]
-    public SubCategoriaPoco getById(int id)
+    [HttpGet("SubCategorias/PorCategoria/{categoriaId}")] // Filtro de Pesquisa //
+    public List<SubCategoriaPoco> GetByCategoriaId(int categoriaId)
     {
-        return this.servico.Ler(id);
+        return this.Servico.Listar(sub => sub.CodigoCategoria == categoriaId);
     }
 
-    [HttpPost]
+    [HttpGet("[controller]/{id}")] // ver algo especifico //
+    public SubCategoriaPoco GetById(int id)
+    {
+        return this.Servico.Ler(id);
+    }
+
+    [HttpPost("[controller]")] // add //
     public SubCategoriaPoco Post([FromBody]SubCategoriaPoco poco)
     {
-        return this.servico.Inserir(poco);
+        return this.Servico.Inserir(poco);
     }
 
-    [HttpPut]
+    [HttpPut("[controller]")] // alterar //
     public SubCategoriaPoco Put([FromBody]SubCategoriaPoco poco)
     {
-        return this.servico.Alterar(poco);
+        return this.Servico.Alterar(poco);
     }
 
-    [HttpDelete]
+    [HttpDelete("[controller]/{chave}")] // deletar uma chave //
     public SubCategoriaPoco Delete(int chave)
     {
-        return this.servico.Excluir(chave);
+        return this.Servico.Excluir(chave);
     }
 }

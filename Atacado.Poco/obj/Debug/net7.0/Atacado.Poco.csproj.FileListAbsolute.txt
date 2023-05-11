@@ -34,3 +34,15 @@ d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.
 d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\Atacado.Poco\obj\Debug\net7.0\refint\Atacado.Poco.dll
 d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.pdb
 d:\Eduardo\Nova pasta\Carlos Eduardo\POO2\Atacado.Poco\obj\Debug\net7.0\ref\Atacado.Poco.dll
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\bin\Debug\net7.0\Atacado.Poco.deps.json
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\bin\Debug\net7.0\Atacado.Poco.dll
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\bin\Debug\net7.0\Atacado.Poco.pdb
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.csproj.AssemblyReference.cache
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.GeneratedMSBuildEditorConfig.editorconfig
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.AssemblyInfoInputs.cache
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.AssemblyInfo.cs
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.csproj.CoreCompileInputs.cache
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.dll
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\refint\Atacado.Poco.dll
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\Atacado.Poco.pdb
+d:\Eduardo\Nova pasta\-Menu-\VS-CODE\POO2\Atacado.Poco\obj\Debug\net7.0\ref\Atacado.Poco.dll

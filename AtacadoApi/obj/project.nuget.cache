@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTT8eZw7QXCd9rxMFBQEBzLEWy1kfe8Wo0pQ5YRazoQCQV7rABx6rLnhLX4PnI+1NpxvC5/Jgw0ddMSABabIQQ==",
+  "dgSpecHash": "AxRD48oA4aRI523WUzWdaxRSQ6vKsjF6p7SqcGX3G0d/LcQ/zVVf/Wn2STUJCNv5lrrcloClaERyc9n4AXzYKQ==",
   "success": true,
-  "projectFilePath": "d:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\AtacadoApi\\AtacadoApi.csproj",
+  "projectFilePath": "d:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\AtacadoApi\\AtacadoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

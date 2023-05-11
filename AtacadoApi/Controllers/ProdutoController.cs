@@ -7,43 +7,45 @@ using Microsoft.EntityFrameworkCore;
 namespace AtacadoApi.Controllers;
 
 [ApiController]
-[Route("api/Atacado/Estoque/")]
+[Route("api/Atacado/Produto/")]
 // Controller //
-public class CategoriaController : BaseController
+public class ProdutoController : BaseController
 {
-    private CategoriaServico servico;
-    public CategoriaController() : base()
+    private ProdutoServico servico;
+    
+    public ProdutoController() : base()
     {
-        this.servico = new CategoriaServico(this.contexto);
+        this.servico = new ProdutoServico(this.contexto);
     }
 
-    [HttpGet("Categorias")] // ver todos "GET ALL"//
-    public List<CategoriaPoco> GetAll()
+    [HttpGet("Produtos")] // ver todos "GET ALL"//
+    public List<ProdutoPoco> GetAll()
     {
         return this.servico.Listar();
     }
 
     [HttpGet("[controller]/{id}")] // ver algo especifico //
-    public CategoriaPoco getById(int id)
+    public ProdutoPoco GetById(int id)
     {
         return this.servico.Ler(id);
     }
 
     [HttpPost("[controller]")] // add //
-    public CategoriaPoco Post([FromBody]CategoriaPoco poco)
+    public ProdutoPoco Post([FromBody]ProdutoPoco poco)
     {
         return this.servico.Inserir(poco);
     }
 
     [HttpPut("[controller]")] // alterar //
-    public CategoriaPoco Put([FromBody]CategoriaPoco poco)
+    public ProdutoPoco Put([FromBody]ProdutoPoco poco)
     {
         return this.servico.Alterar(poco);
     }
 
     [HttpDelete("[controller]/{chave}")] // deletar uma chave //
-    public CategoriaPoco Delete(int chave)
+    public ProdutoPoco Delete(int chave)
     {
         return this.servico.Excluir(chave);
     }
 }
+

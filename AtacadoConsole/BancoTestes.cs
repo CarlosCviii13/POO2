@@ -1,6 +1,6 @@
 using Atacado.BD.EF.Database;
 
-namespace AtacadoConsole; //REFAZER
+namespace AtacadoConsole;
 
 public class BancoTestes : BaseTestes
 {

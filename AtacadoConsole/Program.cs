@@ -26,4 +26,31 @@ public class Program
         Console.WriteLine("\nFim do Programa...");
         Console.ReadLine();
     }
+    // FORMA DE IMPRIMIR TUDO //
+    //     public static void Main(string[] args)
+    // {
+    //     ProvaN1Context ctx = new ProvaN1Context();
+
+    //     Console.WriteLine("Funcionarios:");
+    //     foreach (var item in ctx.Funcionarios)
+    //     {
+    //         Console.WriteLine($"Codigo: {item.Codigo} - Nome Funcionario: {item.Nome}");
+    //     }
+    //     Console.ReadKey();
+
+    //     Console.Clear();
+    //     Console.WriteLine("Pessoas Físicas:");
+    //     foreach (var item in ctx.PessoasFisicas)
+    //     {
+    //         Console.WriteLine($"Codigo: {item.Codigo} - Nome Pessoa Física: {item.Nome}");
+    //     }
+    //     Console.ReadKey();
+
+    //     Console.Clear();
+    //     Console.WriteLine("Pessoas Jurídicas:");
+    //     foreach (var item in ctx.PessoasJuridicas)
+    //     {
+    //         Console.WriteLine($"Codigo: {item.Codigo} - Nome Empresa: {item.Nome}");
+    //     }
+    // }
 }

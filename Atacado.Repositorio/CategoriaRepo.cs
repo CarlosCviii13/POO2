@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using Atacado.BD.EF.Database;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +33,11 @@ public class CategoriaRepo : BaseAtacadoContextoRepo<Categoria> // ctrl+ponto pa
     public override List<Categoria> Read()
     {
         return this.contexto.Categorias.ToList();
+    }
+
+    public override List<Categoria> Read(Expression<Func<Categoria, bool>> predicado)
+    {
+        return this.contexto.Categorias.Where(predicado).ToList();  
     }
 
     public override Categoria Update(Categoria obj)

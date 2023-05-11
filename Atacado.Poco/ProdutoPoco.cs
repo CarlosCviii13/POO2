@@ -1,16 +1,15 @@
 namespace Atacado.Poco
 {
     // Em poco o que importa e ter os public(s) de "get e set" //
-    public class SubCategoriaPoco
+    public class ProdutoPoco
     {
-        public SubCategoriaPoco()
-        { }
-
         public int Codigo { get; set; }
 
-        public int CodigoCategoria { get; set; }
+        public int CodigoSubcategoria { get; set; }
 
         public string Descricao { get; set; } = null!;
+
+        public decimal Valor { get; set; }
 
         public bool Ativo { get; set; }
 

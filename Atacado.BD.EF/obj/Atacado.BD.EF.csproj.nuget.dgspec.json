@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {}
+    "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {}
   },
   "projects": {
-    "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
+    "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+        "projectUniqueName": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
         "projectName": "Atacado.BD.EF",
-        "projectPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
+        "projectPath": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.BD.EF\\Atacado.BD.EF.csproj",
         "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "D:\\Eduardo\\Nova pasta\\Carlos Eduardo\\POO2\\Atacado.BD.EF\\obj\\",
+        "outputPath": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.BD.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
