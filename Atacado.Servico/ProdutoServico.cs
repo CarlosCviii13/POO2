@@ -64,11 +64,12 @@ public class ProdutoServico
         return new ProdutoPoco()
         {
             Codigo = dom.Codigo,
-            CodigoSubcategoria = dom.CodigoSubcategoria,
+            CodigoSubCategoria = dom.CodigoSubCategoria,
             Valor = dom.Valor,
             Descricao = dom.Descricao,
             Ativo = dom.Ativo,
-            DataInclusao = dom.DataInclusao
+            DataInclusao = dom.DataInclusao,
+            CodigoCategoria = dom.CodigoSubCategoria
         };
     }
 
@@ -77,16 +78,21 @@ public class ProdutoServico
         return new Produto()
         {
             Codigo = poco.Codigo,
-            CodigoSubcategoria = poco.CodigoSubcategoria,
+            CodigoSubCategoria = poco.CodigoSubCategoria,
             Valor = poco.Valor,
             Descricao = poco.Descricao,
             Ativo = poco.Ativo,
-            DataInclusao = poco.DataInclusao
+            DataInclusao = poco.DataInclusao,
+            CodigoCategoria = poco.CodigoCategoria
         };
-    }    
+    }
+
     public override List<ProdutoPoco> Listar(Expression<Func<Produto, bool>> predicado)
     {
-        return this.repositorio.Read(predicado).Select(tupla => this.Converter(tupla)).ToList<ProdutoPoco>();
+        return this.repositorio.Read(predicado)
+            .Select(tupla => this.Converter(tupla))
+            .ToList<ProdutoPoco>();
     }
 }
+
 

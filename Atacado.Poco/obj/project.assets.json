@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
+      "projectUniqueName": "d:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
       "projectName": "Atacado.Poco",
-      "projectPath": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
+      "projectPath": "d:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Poco\\Atacado.Poco.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Poco\\obj\\",
+      "outputPath": "d:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Poco\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -13,7 +13,7 @@ public class ProdutoTestes : BaseTestes
         Console.WriteLine("-----( Exibindo Produtos )-----");
         foreach (Produto item in this.context.Produtos)
         {
-            Console.WriteLine($"(Codigo:{item.Codigo}-{item.CodigoSubcategoria})-> Descição: {item.Descricao} \n Valor: $ {item.Valor} \n Data: {item.DataInclusao}\n");
+            Console.WriteLine($"(Codigo:{item.Codigo}-{item.CodigoSubCategoria})-> Descição: {item.Descricao} \n Valor: $ {item.Valor} \n Data: {item.DataInclusao}\n");
         }
         Console.WriteLine("-----( Finalizando Produtos )-----");
         Console.ReadLine();

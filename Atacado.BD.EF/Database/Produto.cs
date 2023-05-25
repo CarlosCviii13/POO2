@@ -10,7 +10,7 @@ namespace Atacado.BD.EF.Database;
 {
     [Key]
     public int Codigo { get; set; }
-    public int CodigoSubcategoria { get; set; }
+    public int CodigoSubCategoria { get; set; }
     [Unicode(false)]
     public string Descricao { get; set; } = null!;
     [Column(TypeName = "decimal(7, 2)")]
@@ -18,4 +18,5 @@ namespace Atacado.BD.EF.Database;
     public bool Ativo { get; set; }
     [Column(TypeName = "datetime")]
     public DateTime? DataInclusao { get; set; }
+    public int CodigoCategoria { get; set; }
 }

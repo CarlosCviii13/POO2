@@ -1,5 +1,5 @@
 namespace Atacado.Poco;
-// Em poco o que importa e ter os public(s) de "get e set" //
+// Em poco o que importa e ter os public(s) de "get e set" da class criadas //
 public class CategoriaPoco
 {
     public int Codigo { get; set; }

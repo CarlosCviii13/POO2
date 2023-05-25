@@ -21,6 +21,7 @@ namespace Atacado.BD.EF.Database
         public virtual DbSet<Estado> Estados { get; set; } = null!;
         public virtual DbSet<Cidade> Cidades { get; set; } = null!;
         public virtual DbSet<Banco> Bancos { get; set; } = null!;
+        public virtual DbSet<Profissao> Profissoes { get; set; } = null!; 
         public virtual DbSet<AreaConhecimento> AreaConhecimentos { get; set; } = null!;
 
         //"SQL"
@@ -55,6 +56,10 @@ namespace Atacado.BD.EF.Database
             modelBuilder.Entity<Cidade>();
             modelBuilder.Entity<Banco>();
             modelBuilder.Entity<AreaConhecimento>();
+            modelBuilder.Entity<Profissao>(entity =>
+            {
+                entity.Property(e => e.DataInsert).HasDefaultValueSql("(getdate())");
+            });
             OnModelCreatingPartial(modelBuilder);
         }
         //"Partial Void ModelBulder"

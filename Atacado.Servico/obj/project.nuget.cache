@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FghYpQKNkpnMiXvlHtBRGEpLNLzP9QziNB5ArLsvKv3blfuA+26HY3QOnARisVIWCYugtfWX+KyOfN0fWi2jlA==",
+  "dgSpecHash": "Kn0DXyqoP0CGj/fEbT4ZnfUELnMwrwYQxFGlgTw6GvxdtdBdzCX99eDeWwd0MP1y4s4DTp/xKIqaGgfvbN6kfg==",
   "success": true,
-  "projectFilePath": "D:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Servico\\Atacado.Servico.csproj",
+  "projectFilePath": "d:\\Eduardo\\Nova pasta\\-Menu-\\VS-CODE\\POO2\\Atacado.Servico\\Atacado.Servico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
