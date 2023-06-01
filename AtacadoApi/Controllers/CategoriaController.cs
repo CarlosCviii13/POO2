@@ -9,7 +9,7 @@ namespace AtacadoApi.Controllers;
 [ApiController]
 [Route("api/Atacado/Estoque/")]
 // Controller //
-public class CategoriaController : BaseController
+public class CategoriaController : BaseController<CategoriaPoco>
 {
     private CategoriaServico servico;
     public CategoriaController() : base()
@@ -18,32 +18,83 @@ public class CategoriaController : BaseController
     }
 
     [HttpGet("Categorias")] // ver todos "GET ALL"//
-    public List<CategoriaPoco> GetAll()
+    public ActionResult<List<CategoriaPoco>> GetAll()
     {
-        return this.servico.Listar();
+        try
+        {
+            return Ok(this.servico.Listar());
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    [HttpGet("[controller]/{id}")] // ver algo especifico //
-    public CategoriaPoco getById(int id)
+    [HttpGet("[controller]/{chave}")] // ver algo especifico //
+    public ActionResult<CategoriaPoco> Get(int chave)
     {
-        return this.servico.Ler(id);
+        try
+        {
+            CategoriaPoco objPoco = this.servico.Ler(chave);
+            return this.ValidarSucessoOuFracasso(objPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
     [HttpPost("[controller]")] // add //
-    public CategoriaPoco Post([FromBody]CategoriaPoco poco)
+    public ActionResult<CategoriaPoco> Post([FromBody]CategoriaPoco poco)
     {
-        return this.servico.Inserir(poco);
+        try
+        {
+            CategoriaPoco novoPoco = this.servico.Inserir(poco);
+            return this.ValidarSucessoOuFracasso(novoPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    [HttpPut("[controller]")] // alterar //
-    public CategoriaPoco Put([FromBody]CategoriaPoco poco)
+    [HttpPut("[controller]")] // Alterer //
+    public ActionResult<CategoriaPoco> put([FromBody]CategoriaPoco poco)
     {
-        return this.servico.Alterar(poco);
+        try
+        {
+            CategoriaPoco altPoco = this.servico.Alterar(poco);
+            return this.ValidarSucessoOuFracasso(altPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    [HttpDelete("[controller]/{chave}")] // deletar uma chave //
-    public CategoriaPoco Delete(int chave)
+    [HttpDelete("[controller]/{chave}")] // Deletar //
+    public ActionResult<CategoriaPoco> Delete(int chave)
     {
-        return this.servico.Excluir(chave);
+        try
+        {
+            CategoriaPoco delPoco = this.servico.Excluir(chave);
+            return this.ValidarSucessoOuFracasso(delPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+    protected override ActionResult<CategoriaPoco> ValidarSucessoOuFracasso(CategoriaPoco poco)
+    { // "O pior cenario sempre vem primeiro" //
+        if (poco == null)
+        {
+            return BadRequest("O recurso solicitado não foi encontrado.. :/");
+        }
+        else
+        {
+            return Ok(poco);
+        }
     }
 }

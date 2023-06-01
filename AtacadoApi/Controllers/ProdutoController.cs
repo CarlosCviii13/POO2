@@ -8,7 +8,7 @@ namespace AtacadoApi.Controllers;
 
 [ApiController]
 [Route("api/Atacado/Estoque/")]
-public class ProdutoController : BaseController
+public class ProdutoController : BaseController<ProdutoPoco>
 {
     private ProdutoServico servico;
     
@@ -18,45 +18,112 @@ public class ProdutoController : BaseController
     }
 
     [HttpGet("Produtos")]
-    public List<ProdutoPoco> GetAll()
+    public ActionResult<List<ProdutoPoco>> GetAll()
     {
-        return this.servico.Listar();
+        try
+        {
+            return Ok(this.servico.Listar());
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
     [HttpGet("Produtos/PorCategoria/{categoriaId}")]
-    public List<ProdutoPoco> GetByCategoriaId(int CategoriaId)
+    public ActionResult<List<ProdutoPoco>> GetByCategoriaId(int produtoId)
     {
-        return this.servico.Listar(prod => prod.CodigoCategoria == CategoriaId);
+        List<ProdutoPoco> lista = this.servico.Listar(prod => prod.CodigoCategoria == produtoId);
+        if(lista == null)
+        {
+            return BadRequest("O recurso solicitado não foi encontrado.. :/");
+        }
+        else
+        {
+            return lista;
+        }
     }
 
     [HttpGet("Produtos/PorSubcategoria/{subcategoriaId}")]
-    public List<ProdutoPoco> GetBySubcategoriaId(int SubCategoriaId)
+    public ActionResult<List<ProdutoPoco>> GetBySubCategoriaId(int subcategoriaId)
     {
-        return this.servico.Listar(prod => prod.CodigoSubCategoria == SubCategoriaId);
+        List<ProdutoPoco> lista = this.servico.Listar(prod => prod.CodigoSubCategoria == subcategoriaId);
+        if(lista == null)
+        {
+            return BadRequest("O recurso solicitado não foi encontrado.. :/");
+        }
+        else
+        {
+            return lista;
+        }
     }
 
-    [HttpGet("[controller]/{id}")]
-    public ProdutoPoco GetById(int id)
+    [HttpGet("[controller]/{chave}")] // ver algo especifico //
+    public ActionResult<ProdutoPoco> Get(int chave)
     {
-        return this.servico.Ler(id);
+        try
+        {
+            ProdutoPoco objPoco = this.servico.Ler(chave);
+            return this.ValidarSucessoOuFracasso(objPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    [HttpPost("[controller]")]
-    public ProdutoPoco Post([FromBody]ProdutoPoco poco)
+    [HttpPost("[controller]")] // add //
+    public ActionResult<ProdutoPoco> Post([FromBody]ProdutoPoco poco)
     {
-        return this.servico.Inserir(poco);
+        try
+        {
+            ProdutoPoco novoPoco = this.servico.Inserir(poco);
+            return this.ValidarSucessoOuFracasso(novoPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    [HttpPut("[controller]")]
-    public ProdutoPoco Put([FromBody]ProdutoPoco poco)
+    [HttpPut("[controller]")] // Alterer //
+    public ActionResult<ProdutoPoco> put([FromBody]ProdutoPoco poco)
     {
-        return this.servico.Alterar(poco);
+        try
+        {
+            ProdutoPoco altPoco = this.servico.Alterar(poco);
+            return this.ValidarSucessoOuFracasso(altPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    [HttpDelete("[controller]/{chave}")]
-    public ProdutoPoco Delete(int chave)
+    [HttpDelete("[controller]/{chave}")] // Deletar //
+    public ActionResult<ProdutoPoco> Delete(int chave)
     {
-        return this.servico.Excluir(chave);
+        try
+        {
+            ProdutoPoco delPoco = this.servico.Excluir(chave);
+            return this.ValidarSucessoOuFracasso(delPoco);
+        }
+        catch (System.Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+    protected override ActionResult<ProdutoPoco> ValidarSucessoOuFracasso(ProdutoPoco poco)
+    { // "O pior cenario sempre vem primeiro" //
+        if (poco == null)
+        {
+            return BadRequest("O recurso solicitado não foi encontrado.. :/");
+        }
+        else
+        {
+            return Ok(poco);
+        }
     }
 }
 

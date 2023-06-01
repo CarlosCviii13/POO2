@@ -4,7 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AtacadoApi.Controllers;
 
-public abstract class BaseController : ControllerBase
+// public abstract class BaseController : ControllerBase
+public abstract class BaseController<TPoco> : ControllerBase
 {
     protected AtacadoContext contexto;
 
@@ -14,4 +15,6 @@ public abstract class BaseController : ControllerBase
         var options = new DbContextOptionsBuilder<AtacadoContext>().UseSqlServer(connectionString).Options;
         this.contexto = new AtacadoContext(options);
     }
+
+    protected abstract ActionResult<TPoco> ValidarSucessoOuFracasso(TPoco poco);
 }
